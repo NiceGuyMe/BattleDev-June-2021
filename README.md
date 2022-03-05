@@ -1,39 +1,39 @@
 # BattleDev-June-2021
 
-Tommy Pasqua dans l'espace
+Tommy Pasqua in space
 
-Bienvenue sur cette nouvelle édition de la BattleDev ! Le temps d'une soirée, vous incarnez Tommy Pasqua, le plus célèbre des astronautes.
+Welcome to this new edition of BattleDev ! For one evening, you play Tommy Pasqua , the most famous astronaut.
 
-Demain vous décollerez pour la mission la plus ambitieuse de l'Histoire : vous partez pour un voyage hors de notre système solaire afin de récolter de précieuses ressources sur des exoplanètes.
+Tomorrow you will take off for the most ambitious mission in history: you are going on a journey outside our solar system to collect precious resources from exoplanets.
 
-La tâche est grande et pourrait mener aux plus grandes découvertes de l'Humanité, mais le chemin est long et périlleux.
+The task is great and could lead to the greatest discoveries of Humanity, but the path is long and perilous.
 
-Êtes-vous prêt·e à relever le défi ?
-Préparation minutieuse
+Are you ready to take up the challenge?
+Careful preparation
 
-Le décollage approche et cela fait des années que vous préparez ce moment. Tout a été préparé et répété des dizaines de fois : de l'embarquement dans la fusée à l'atterrissage, vous pourriez tout faire les yeux fermés.
+Take-off is approaching and you have been preparing for this moment for years. Everything has been prepared and rehearsed dozens of times: from boarding the rocket to landing, you could do it all with your eyes closed.
 
-Vous terminez la vérification complète de la fusée pour demain et il ne reste plus qu'une vérification : s'assurer que vous aurez assez d'ergol (c'est-à-dire de carburant) pour le décollage et le voyage. Vous savez que votre capsule spatiale consomme 5kg d'ergol par unité astronomique parcourue.
+You finish the full rocket checkout for tomorrow and there's only one check left: to make sure you'll have enough propellant (i.e. fuel) for takeoff and travel. You know that your space capsule consumes 5 kg of propellant per astronomical unit traveled.
 
-Ecrivez un algorithme permettant de déterminer la masse d'ergol nécessaire à la mission, à partir de la masse nécessaire au décollage et à la distance du voyage.
-Données
-Entrée
+Write an algorithm to determine the mass of propellant needed for the mission, given the mass needed for takeoff and the distance of the trip.
+Data
+Entrance
 
-Ligne 1 : un entier D, représentant la masse d'ergol nécessaire au décollage en kg.
+Line 1 : an integer D, representing the mass of propellant required for take-off in kg.
 
-Ligne 2 : un entier L, représentant la distance totale du voyage en unités astronomiques.
-Sortie
+Line 2 : an integer L, representing the total distance of the trip in astronomical units.
+Exit
 
-Un entier représentant la masse totale nécessaire au voyage : il faut D kg pour le décollage, puis 5kg par unité astronomique pour toute la distance L du voyage.
-Exemple
+An integer representing the total mass necessary for the trip: it is necessary Dkg for takeoff, then 5kg per astronomical unit for the whole distance Ltravel.
+Example
 
-Pour l'entrée :
+For the entrance :
 
 500
 12
 
-Votre programme devra renvoyer :
+Your program should return:
 
 560
 
-En effet : 500 + 12 * 5 = 560
+In effect : 500 + 12 * 5 = 560
