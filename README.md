@@ -37,3 +37,11 @@ Your program should return:
 560
 
 In effect : 500 + 12 * 5 = 560
+
+
+# How to run this code? 
+
+to run the code you need to :
+- Download and install nodeJS on your pc
+- Do an nmp install to install the necessary tools
+- Run node meticulousPreparation.js on terminal
